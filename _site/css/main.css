@@ -1,7 +1,4 @@
-/*
- * Monochrome is a simple, responsive blog theme built for Jekyll.
- */
-/*- Base reset -*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&subset=latin-ext");
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -12,31 +9,26 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
   padding: 0;
   border: 0; }
 
-/*- Base color -*/
-/*- Base settings -*/
 html {
-  background-color: #FFFFFF;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.8;
   color: #333333; }
-  @media (min-width: 940px) {
+  @media (min-width: 768px) {
     html {
       font-size: 18px; } }
 
 body {
-  max-width: 1000px;
+  max-width: 850px;
   margin: 0 auto;
   padding: 0 10px; }
 
-/*- Link -*/
 a {
   color: #333333;
   text-decoration: none;
-  font-weight: 700; }
+  font-weight: 500; }
   a:hover, a:focus {
     color: #262626; }
 
-/* Common classes */
 .f-right {
   float: right; }
 
@@ -86,51 +78,42 @@ a {
 .left {
   left: 0; }
 
-/*- Typography -*/
 body {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
-  color: #333; }
+  color: #333333; }
 
 /*- Typography for medium and small screen, based on 16px font-size -*/
 p, ul, ol {
   font-size: 1em;
-  /* 16px */
-  line-height: 1.5em;
-  /* 24px/16px */
-  margin-bottom: 1.5em;
-  /* 24px/16px */ }
+  line-height: 1.8em;
+  margin-bottom: 1.5em; }
 
 h1 {
   font-size: 2.25em;
-  /* 36px/16px */
-  line-height: 1.3333em;
-  /* 48px/36px */
+  font-weight: 500;
+  line-height: 1.8em;
   padding: 0.33335em 0;
-  /* 12px/36px * 2 (Use padding instead of margin to maintain proximity with paragraph) */ }
+  /* Use padding instead of margin to maintain proximity with paragraph */ }
 
 h2 {
   font-size: 1.5em;
   /* 24px/16px */
-  line-height: 1em;
-  /* 24px/24px */
+  font-weight: 500;
+  line-height: 1.8em;
   padding: 1em 0 0 0;
   /* 12px/24px * 2, only top (Use padding instead of margin to maintain proximity with paragwithph) */ }
 
 h3, h4, h5, h6 {
   font-size: 1.125em;
   /* 18px/16px */
-  line-height: 1.3334em;
-  /* 24px/18px */
+  line-height: 1.8em;
   padding: 0.66667em 0;
   /* 12px/18px * 2 (Use padding instead of margin to maintain proximity with paragraph) */ }
 
 blockquote {
   font-style: italic;
   margin: 1.5em;
-  /* 24px/18px */
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -143,38 +126,29 @@ blockquote {
     /* 24px/18px */ }
 
 /*- Typography for big screen, based on 18px font-size -*/
-@media (min-width: 940px) {
+@media (min-width: 768px) {
   p, ul, ol {
     font-size: 1em;
-    /* 18px */
-    line-height: 1.3334em;
-    /* 24px/18px */
-    margin-bottom: 1.3334em;
-    /* 24px/18px */ }
+    line-height: 1.8em;
+    margin-bottom: 1.3334em; }
 
   h1 {
     font-size: 2.6667em;
-    /* 48px/18px */
-    line-height: 1em;
-    /* 48px/48px */
+    line-height: 1.8em;
     padding: 0.25em 0;
-    /* 12px/48px * 2 (Use padding instead of margin to maintain proximity with paragraph) */ }
+    /* Use padding instead of margin to maintain proximity with paragraph */ }
 
   h2 {
-    font-size: 2em;
-    /* 36px/18px */
-    line-height: 1.3334em;
-    /* 48px/36px */
+    font-size: 1.7em;
+    line-height: 1.8em;
     padding: 0.66667em 0 0 0;
-    /* 12px/36px * 2, pnly top (Use padding instead of margin to maintain proximity with paragraph) */ }
+    /* Use padding instead of margin to maintain proximity with paragraph */ }
 
   h3, h4, h5, h6 {
     font-size: 1.3334em;
-    /* 24px/18px */
-    line-height: 1em;
-    /* 24px/24px */
+    line-height: 1.8em;
     padding: 0.5em 0;
-    /* 12px/24px * 2 (Use padding instead of margin to maintain proximity with paragraph) */ }
+    /* Use padding instead of margin to maintain proximity with paragraph */ }
 
   blockquote {
     font-style: italic;
@@ -190,15 +164,13 @@ blockquote {
     blockquote p, blockquote ul, blockquote ol {
       padding: 1.33334em 0;
       /* 24px/18px */ } }
-/* -- General Layout -- */
-/* Navigation */
 #nav a, #nav-left a {
   display: block;
   color: #333333;
   padding: 0.33334em 0;
   font-size: 1.5em;
   font-weight: 400; }
-  @media (min-width: 940px) {
+  @media (min-width: 768px) {
     #nav a, #nav-left a {
       font-size: 1em; } }
   #nav a:hover, #nav-left a:hover {
@@ -261,13 +233,12 @@ blockquote {
     #nav-left.menu-open-left {
       width: 30%; } }
 
-@media (max-width: 940px) {
+@media (max-width: 768px) {
   #nav-links {
     display: none; } }
 #nav-links a {
   padding-left: 10px;
-  color: #333333;
-  font-weight: 300; }
+  color: #333333; }
 
 /* Separator after menu */
 #nav-list:after {
@@ -286,7 +257,7 @@ blockquote {
   right: 25px;
   z-index: 10;
   height: 24px; }
-  @media (min-width: 940px) {
+  @media (min-width: 768px) {
     #nav-menu {
       display: none; } }
 
@@ -297,7 +268,7 @@ blockquote {
   left: 25px;
   z-index: 10;
   height: 24px; }
-  @media (min-width: 940px) {
+  @media (min-width: 768px) {
     #nav-menu-left {
       display: none; } }
 
@@ -339,7 +310,7 @@ blockquote {
 .fixed {
   position: fixed;
   width: 100%; }
-  @media (min-width: 940px) {
+  @media (min-width: 768px) {
     .fixed {
       position: static; } }
 
@@ -359,7 +330,8 @@ blockquote {
     margin: 0 auto; }
   #header h1 {
     font-size: 2em;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    text-transform: lowercase; }
     #header h1 span {
       color: rgba(0, 0, 0, 0.6);
       font-weight: 300; }
@@ -370,7 +342,7 @@ blockquote {
 
 #post-page {
   margin-bottom: 1.5em; }
-  @media (min-width: 940px) {
+  @media (min-width: 768px) {
     #post-page {
       margin-bottom: 1.3334em; } }
 
@@ -385,20 +357,16 @@ blockquote {
 .by-line {
   display: block;
   color: #737373;
-  line-height: 1.5em;
-  /* 24px/16px */
+  line-height: 1.8em;
   margin-bottom: 1.5em;
-  /* 24px/16px */
-  font-weight: 200; }
-  @media (min-width: 940px) {
+  /* 24px/16px */ }
+  @media (min-width: 768px) {
     .by-line {
       display: block;
       color: #737373;
-      line-height: 1.3334em;
-      /* 24px/18px */
+      line-height: 1.8em;
       margin-bottom: 1.3334em;
-      /* 24px/18px */
-      font-weight: 200; } }
+      /* 24px/18px */ } }
 
 img {
   max-width: 100%;
@@ -410,7 +378,7 @@ img {
   -ms-border-radius: 4px;
   border-radius: 4px; }
 
-img[title="Monochrome"] {
+img[title="Cult"] {
   box-shadow: 0 2px 6px #ddd; }
 
 code {
@@ -419,13 +387,11 @@ code {
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
 .content ul, .content ol {
-  line-height: 1.5em;
-  /* 24px/16px */
+  line-height: 1.8em;
   padding-left: 1.5em; }
-  @media (min-width: 940px) {
+  @media (min-width: 768px) {
     .content ul, .content ol {
-      line-height: 1.33334em;
-      /* 24px/18px */ } }
+      line-height: 1.8em; } }
 
 /* Pages */
 #page ul, #page ol {
@@ -455,9 +421,11 @@ code {
 /* Footer */
 footer {
   background-color: #FFFFFF;
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
   color: #333333;
   text-align: center;
-  padding: 0.6667em 0; }
+  padding: 0.6667em 0;
+  font-size: 0.9em; }
 
 /*
  * A Github stylesheet to highlight code snippet

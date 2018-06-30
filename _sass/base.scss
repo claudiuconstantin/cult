@@ -1,14 +1,10 @@
-/*
- * Monochrome is a simple, responsive blog theme built for Jekyll.
- */
-
-/*- Base reset -*/
-
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&subset=latin-ext');
 
 html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
   margin: 0;
@@ -16,23 +12,16 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
   border: 0;
 }
 
-body {
-
-}
-
-/*- Base color -*/
-
+$max-width: 850px;
+$width-breaking-point: 768px;
 $background-color: #FFFFFF;
 $text-color: #333333;
 $text-light-color: rgba(0,0,0,0.6);
 $text-dark-color: #000000;
 
-/*- Base settings -*/
-
 html {
-	background-color: $background-color;
 	font-size: 16px;
-	@media (min-width: 940px) {
+	@media (min-width: $width-breaking-point) {
 		font-size: 18px;
 	}
 	line-height: 1.8;
@@ -40,23 +29,20 @@ html {
 }
 
 body {
- max-width: 1000px;
+ max-width: $max-width;
  margin: 0 auto;
  padding: 0 10px;
 }
 
-/*- Link -*/
 a {
 	color: $text-color;
 	text-decoration: none;
-	font-weight: 700;
+	font-weight: 500;
 	&:hover,
 	&:focus {
 		color: darken($text-color, 5%);
 	}
 }
-
-/* Common classes */
 
 .f-right { float: right; }
 .f-left { float: left; }

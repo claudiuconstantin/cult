@@ -1,14 +1,14 @@
 # Site settings
-title: Monochrome | A minimal, responsive Jekyll blog theme
-description: "A minimal, responsive, ready to use blog template, built with Jekyll."
-url: "http://www.dyutibarma.github.io/monochrome"
+title: Cult - a clean Jekyll theme for your blog
+description: "Cult is a clean, minimal, ready to use Jekyll template for your blog"
+url: "http://claudiuconstantin.github.io/cult"
 author:
-  name: "The Review Index"
-  email: "dyutibarma@gmail.com"
-  url: "https://thereviewindex.com"
+  name: "Claudiu Constantin"
+  email: "claudiu@fastmail.com"
+  url: "http://claudiuconstantin.com/"
 
 # Build settings
-baseurl: /monochrome # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: 
 markdown: kramdown
 source: .
 destination: ./_site
@@ -26,12 +26,13 @@ defaults:
       layout: "post"
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
 # Custom variables
 version: "1.0.0"
+theme-name: "Cult"
 
 # Options
 custom_header: false

@@ -1,33 +1,28 @@
-/*- Typography -*/
-//
-// Based on the typographic scale: 12, 14, 16, 18, 21, 24, 36, 48, 60, 72.
-//
-
 body
 {
-  font-family : "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family : "Roboto", "Arial", sans-serif;
   font-size   : 16px;
-  color: #333;
+  color: $text-color;
 }
 
 /*- Typography for medium and small screen, based on 16px font-size -*/
 
 p, ul, ol {
-	font-size: 1em; /* 16px */
+	font-size: 1em; 
 	line-height: 1.8em;
-	margin-bottom: 1.5em; /* 24px/16px */
+	margin-bottom: 1.5em;
 }
 
 h1 {
-	font-size: 2.25em; /* 36px/16px */
+	font-size: 2.25em;
+	font-weight: 500;
 	line-height: 1.8em;
-	padding: 0.33335em 0; /* 12px/36px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
+	padding: 0.33335em 0; /* Use padding instead of margin to maintain proximity with paragraph */
 }
 
 h2 {
 	font-size: 1.5em; /* 24px/16px */
+	font-weight: 500;
 	line-height: 1.8em;
 	padding: 1em 0 0 0; /* 12px/24px * 2, only top (Use padding instead of margin to maintain proximity with paragwithph) */
 }
@@ -40,7 +35,7 @@ h3, h4, h5, h6 {
 
 blockquote {
 	font-style: italic;
-	margin: 1.5em; /* 24px/18px */
+	margin: 1.5em;
 	-webkit-border-radius: 4px;
 	   -moz-border-radius: 4px;
 	    -ms-border-radius: 4px;
@@ -54,30 +49,30 @@ blockquote {
 
 /*- Typography for big screen, based on 18px font-size -*/
 
-@media (min-width: 940px) { //Breakpoint set to 940px
+@media (min-width: $width-breaking-point) {
 
 p, ul, ol {
-	font-size: 1em; /* 18px */
+	font-size: 1em;
 	line-height: 1.8em;
-	margin-bottom: 1.3334em; /* 24px/18px */
+	margin-bottom: 1.3334em;
 }
 
 h1 {
-	font-size: 2.6667em; /* 48px/18px */
+	font-size: 2.6667em;	
 	line-height: 1.8em;
-	padding: 0.25em 0; /* 12px/48px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
+	padding: 0.25em 0; /* Use padding instead of margin to maintain proximity with paragraph */
 }
 
 h2 {
-	font-size: 2em; /* 36px/18px */
+	font-size: 1.7em;
 	line-height: 1.8em;
-	padding: 0.66667em 0 0 0; /* 12px/36px * 2, pnly top (Use padding instead of margin to maintain proximity with paragraph) */
+	padding: 0.66667em 0 0 0; /* Use padding instead of margin to maintain proximity with paragraph */
 }
 
 h3, h4, h5, h6 {
-	font-size: 1.3334em; /* 24px/18px */
+	font-size: 1.3334em;
 	line-height: 1.8em;
-	padding: 0.5em 0; /* 12px/24px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
+	padding: 0.5em 0; /* Use padding instead of margin to maintain proximity with paragraph */
 }
 
 blockquote {
