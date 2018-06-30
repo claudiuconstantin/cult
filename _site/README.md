@@ -1,7 +1,7 @@
 _(This page is work in progress)_
 
 ## About
-Cult is a minimal Jekyll theme for personal blogs, built on top of [Monochrome](https://github.com/dyutibarma/monochrome) and [Emerald](https://github.com/KingFelix/emerald themes.
+Cult is a minimal Jekyll theme for personal blogs, built on top of [Monochrome](https://github.com/dyutibarma/monochrome) and [Emerald](https://github.com/KingFelix/emerald) themes.
 
 Demo [here](https://claudiuconstantin.github.io/cult/).
 

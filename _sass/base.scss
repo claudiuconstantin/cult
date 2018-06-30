@@ -1,15 +1,15 @@
 * {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&subset=latin-ext');
 
 html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
-  margin: 0;
-  padding: 0;
-  border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 $max-width: 850px;
@@ -18,52 +18,101 @@ $background-color: #FFFFFF;
 $text-color: #333333;
 $text-light-color: rgba(0,0,0,0.6);
 $text-dark-color: #000000;
-
 html {
-	font-size: 16px;
-	@media (min-width: $width-breaking-point) {
-		font-size: 18px;
-	}
-	line-height: 1.8;
-	color: $text-color;
+    font-size: 16px;
+    @media (min-width: $width-breaking-point) {
+        font-size: 18px;
+    }
+    line-height: 1.8;
+    color: $text-color;
 }
 
 body {
- max-width: $max-width;
- margin: 0 auto;
- padding: 0 10px;
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 a {
-	color: $text-color;
-	text-decoration: none;
-	font-weight: 500;
-	&:hover,
-	&:focus {
-		color: darken($text-color, 5%);
-	}
+    color: $text-color;
+    text-decoration: none;
+    font-weight: 500;
+    &:hover,
+    &:focus {
+        color: darken($text-color, 5%);
+    }
 }
 
-.f-right { float: right; }
-.f-left { float: left; }
-.clear { clear:both; }
+.f-right {
+    float: right;
+}
+
+.f-left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
 
 // to align div vertically and horizontally in center of another div
-.parent { display: flex;}
-.inner { align-self: center; }
+.parent {
+    display: flex;
+}
+
+.inner {
+    align-self: center;
+}
 
 // justify
-.justify-center { justify-content: center; }
-.justify-spaceBetween { justify-content: space-between; }
+.justify-center {
+    justify-content: center;
+}
 
-.w100 { width: 100% }
-.h100 { height: 100% }
-.wh100 { width: 100%; height: 100%}
+.justify-spaceBetween {
+    justify-content: space-between;
+}
+
+.w100 {
+    width: 100%
+}
+
+.h100 {
+    height: 100%
+}
+
+.wh100 {
+    width: 100%;
+    height: 100%
+}
 
 // position
-.absolute { position: absolute; }
-.relative { position: relative; }
-.top { top: 0 }
-.bottom { bottom: 0 }
-.right { right: 0 }
-.left { left: 0 }
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.top {
+    top: 0
+}
+
+.bottom {
+    bottom: 0
+}
+
+.right {
+    right: 0;
+}
+
+.right-post {
+    right: 0;
+    float: right;
+    text-align: right;
+}
+
+.left {
+    left: 0;
+}

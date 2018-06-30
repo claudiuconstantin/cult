@@ -4,7 +4,7 @@
  <title>Cult - a clean Jekyll theme for your blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2018-06-30T11:48:57+03:00</updated>
+ <updated>2018-06-30T14:36:30+03:00</updated>
  <author>
    <name>Claudiu Constantin</name>
    <uri>http://claudiuconstantin.com/</uri>
@@ -14,7 +14,7 @@
  
 
  <entry>
-   <title>Typography Example | Monochrome</title>
+   <title>A few words in Romanian</title>
    <link href="http://localhost:4000/romanian-language"/>
    <id>http://localhost:4000/romanian-language</id>
    <updated>2018-06-30T00:00:00+03:00</updated>
@@ -24,17 +24,7 @@
  
 
  <entry>
-   <title>Typography Example | Monochrome</title>
-   <link href="http://localhost:4000/typography-example"/>
-   <id>http://localhost:4000/typography-example</id>
-   <updated>2018-06-29T00:00:00+03:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, &lt;a href=&quot;http://www.example.com&quot;&gt;consectetur adipisicing&lt;/a&gt; elit. Id, aliquam magni et officiis nemo nihil aliquid placeat alias. Eum voluptates ducimus, nobis ex illum laboriosam quidem corrupti impedit ratione in voluptatum amet beatae facilis temporibus voluptate praesentium voluptatibus! At ab, iusto error amet eveniet debitis ipsa recusandae possimus minima...</content>
- </entry>
-
- 
-
- <entry>
-   <title>Code Example</title>
+   <title>Let's write some code</title>
    <link href="http://localhost:4000/code-example"/>
    <id>http://localhost:4000/code-example</id>
    <updated>2018-06-28T00:00:00+03:00</updated>
@@ -44,7 +34,7 @@
  
 
  <entry>
-   <title>This is second test post.</title>
+   <title>An image in a post</title>
    <link href="http://localhost:4000/image-example"/>
    <id>http://localhost:4000/image-example</id>
    <updated>2018-06-27T00:00:00+03:00</updated>
@@ -54,7 +44,7 @@
  
 
  <entry>
-   <title>This is the third test post.</title>
+   <title>Another post on it's way</title>
    <link href="http://localhost:4000/test-post-3"/>
    <id>http://localhost:4000/test-post-3</id>
    <updated>2018-06-25T00:00:00+03:00</updated>
@@ -64,7 +54,7 @@
  
 
  <entry>
-   <title>This is the forth test post.</title>
+   <title>4th test post</title>
    <link href="http://localhost:4000/test-post-4"/>
    <id>http://localhost:4000/test-post-4</id>
    <updated>2018-06-23T00:00:00+03:00</updated>
@@ -94,7 +84,7 @@
  
 
  <entry>
-   <title>This is the seventh test post.</title>
+   <title>This is the seventh test post</title>
    <link href="http://localhost:4000/test-post-7"/>
    <id>http://localhost:4000/test-post-7</id>
    <updated>2018-06-17T00:00:00+03:00</updated>
@@ -104,10 +94,20 @@
  
 
  <entry>
-   <title>This is the eigth test post.</title>
+   <title>Eigth test post</title>
    <link href="http://localhost:4000/test-post-8"/>
    <id>http://localhost:4000/test-post-8</id>
    <updated>2018-06-15T00:00:00+03:00</updated>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Just a test</title>
+   <link href="http://localhost:4000/test-post-1"/>
+   <id>http://localhost:4000/test-post-1</id>
+   <updated>2018-06-02T00:00:00+03:00</updated>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
  </entry>
 

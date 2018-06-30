@@ -1,34 +1,33 @@
 ---
-title: Typography Example | Monochrome
-description: This page demonstrates typography in markdown.
-header: A few words about Romanian
+title: A few words in Romanian
+description: This page demonstrates typography in markdown
+category: Personal
+tags: Romania, history
 ---
 
 **Romanian** is an East Romance language spoken by approximately 24–26 million people as a native language, primarily in Romania and Moldova, and by another 4 million people as a second language. It has official status in Romania and the Republic of Moldova. In addition, it is also one of the official languages of the European Union.
 
-Let's see an example of that:
+Let's see an some example:
 
-Ierte-l Dumnezeu pe dascălul Pintilie! Era cântăreț vestit. Și murăturile foarte mult îi plăceau. Mai ales dacă era cam răgușit, le bea cu gălbenuș de ou și i se dregea organul, încât răsunau ferestrele când cânta _Mântuiește, Doamne, norodul tău_. Era dascăl în Butucani, bun sat și mare, oameni cu stare și socoteală, pomeni și ospețe de bogat. Iară copii n-avea dascălul Pintilie decât doi: o fată, pe care a măritat-o după Petrea Țapului, și pe Trandafir, părintele Trandafir, popa din Sărăceni.
+>Ierte-l Dumnezeu pe dascălul Pintilie! Era cântăreț vestit. Și murăturile foarte mult îi plăceau. Mai ales dacă era cam răgușit, le bea cu gălbenuș de ou și i se dregea organul, încât răsunau ferestrele când cânta _Mântuiește, Doamne, norodul tău_. Era dascăl în Butucani, bun sat și mare, oameni cu stare și socoteală, pomeni și ospețe de bogat. Iară copii n-avea dascălul Pintilie decât doi: o fată, pe care a măritat-o după Petrea Țapului, și pe Trandafir, părintele Trandafir, popa din Sărăceni - **Ioan Slavici, "Popa Tanda"**
 
-
-Lorem ipsum dolor sit amet, [consectetur adipisicing](http://www.example.com) elit. Id, aliquam magni et officiis nemo nihil aliquid placeat alias. Eum voluptates ducimus, nobis ex illum laboriosam quidem corrupti impedit ratione in voluptatum amet beatae facilis temporibus voluptate praesentium voluptatibus! At ab, iusto error amet eveniet debitis ipsa recusandae possimus minima sunt itaque, nulla ducimus officia, consequatur ipsum laudantium magnam hic fuga vero incidunt nostrum. Commodi, perspiciatis ut nostrum fugit nulla cumque voluptate harum nemo accusamus? 
+Romanian descended from the Vulgar Latin spoken in the Roman provinces of Southeastern Europe. Roman inscriptions show that Latin was primarily used to the north of the so-called Jireček Line (a hypothetical boundary between the predominantly Latin- and Greek-speaking territories of the Balkan Peninsula in the Roman Empire), but the exact territory where Proto-Romanian (or Common Romanian) developed cannot certainly be determined. Most regions where Romanian is now widely spoken—Bessarabia, Bukovina, Crișana, Maramureș, Moldova, and significant parts of Muntenia—were not incorporated in the [Roman Empire](https://en.wikipedia.org/wiki/Roman_Empire).
 
 ## This is a h2
 
-### h3, h4, h5 and h6 have the same style.
+### h3, h4, h5 and h6 have the same style
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas sed quo atque *perspiciatis*. Eius cum possimus, maxime unde, asperiores neque blanditiis molestiae ipsa odit. **Laboriosam**, error! Ipsa officia magnam at ratione commodi porro nulla consequuntur eum quia nisi officiis cupiditate reprehenderit provident facilis rem, nobis quidem fugiat, et! Tempore maiores reprehenderit laboriosam rerum? 
+Modern __Romania__ was formed in 1859 through a personal union of the Danubian Principalities of Moldavia and Wallachia. The new state, officially named Romania since 1866, gained independence from the Ottoman Empire in 1877. At the end of World War I, Transylvania, Bukovina and Bessarabia united with the sovereign Kingdom of Romania. During World War II, Romania was an ally of Nazi Germany against the Soviet Union, fighting side by side with the Wehrmacht until 1944, when it joined the Allies and faced occupation by the Red Army forces. Romania lost several territories, of which Northern Transylvania was regained after the war. Following the war, Romania became a socialist republic and member of the Warsaw Pact. After the 1989 Revolution, Romania began a transition towards democracy and a capitalist market economy.
 
-> This is a blockquote
+### An unordered list of famous Romanians
+- Constantin Brâncuși
+- Tristan Tzara
+- Mircea Eliade
+- George Emil Palade
 
-### Unordered list
-- list 1
-- list 2
-- list 3
-- list 4
-
-### Ordered list
-1. one
-2. two
-3. three
-4. four
+### An ordered list of Romanian cities
+1. Bucharest
+2. Cluj
+3. Timișoara
+4. Iași
+5. Buzău
