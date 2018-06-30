@@ -8,13 +8,14 @@ author:
   url: "http://claudiuconstantin.com/"
 
 # Build settings
-baseurl: 
 markdown: kramdown
-source: .
 destination: ./_site
 permalink: /:title
 paginate: 8
 paginate_path: /page:num/
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
 
 # Default values
 defaults:
@@ -24,11 +25,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
 
 # Custom variables
 theme-name: "Cult"
