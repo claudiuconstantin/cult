@@ -12,16 +12,19 @@ layout: default
 	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date: "%A, %-d %B, %Y" }}</time>
 	<div class="content">{{ content }}</div>
 </article>
-<div class="previous-next">
-	{% if page.previous %}
-	<span class="left">
-		<a href="{{site.baseurl}}{{page.previous.url}}" title="{{page.previous.title}}">← {{page.previous.title}}</a>
-	</span>
-	{% endif %} 
-	
-	{% if page.next %} 
-	<span class="right-post">
-		<a href="{{site.baseurl}}{{page.next.url}}" title="{{page.next.title}}">{{page.next.title}} →</a>
-	</span>
-	{% endif %}
-</div>
+
+{% if site.previous_next_links %}
+	<div class="previous-next">
+		{% if page.previous %}
+		<span class="left">
+			<a href="{{site.baseurl}}{{page.previous.url}}" title="{{page.previous.title}}">← {{page.previous.title}}</a>
+		</span>
+		{% endif %} 
+		
+		{% if page.next %} 
+		<span class="right-post">
+			<a href="{{site.baseurl}}{{page.next.url}}" title="{{page.next.title}}">{{page.next.title}} →</a>
+		</span>
+		{% endif %}
+	</div>
+{% endif %}

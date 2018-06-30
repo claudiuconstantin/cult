@@ -210,6 +210,8 @@ img[title="Cult"] {
 code {
     color: lighten($text-color, 35%);
     background-color: lighten($background-color, 35%);
+    font-size: 0.95em;
+    line-height: 1em;
 }
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */
