@@ -30,7 +30,7 @@ defaults:
 theme-name: "Cult"
 
 # Options
-previous_next_links: false
+previous_next_links: true
 custom_header: false
 custom_nav_footer: false
 reverse: false

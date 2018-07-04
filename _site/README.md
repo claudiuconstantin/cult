@@ -1,9 +1,11 @@
 _(This page is work in progress)_
 
 ## About
-Cult is a minimal Jekyll theme for personal blogs, built on top of [Monochrome](https://github.com/dyutibarma/monochrome) and [Emerald](https://github.com/KingFelix/emerald) themes.
+Cult is a minimal Jekyll theme for personal blogs, inspired by [Monochrome](https://github.com/dyutibarma/monochrome) and [Emerald](https://github.com/KingFelix/emerald) themes.
 
-Demo [here](https://claudiuconstantin.github.io/cult/).
+Here's a screenshot; demo [here](https://claudiuconstantin.github.io/cult/).
+
+![Cult in the browser](assets/img/cult-browser.jpg "Cult in the browser")
 
 ## Features
 
@@ -19,8 +21,6 @@ Demo [here](https://claudiuconstantin.github.io/cult/).
 - 404 page
 
 ## Install/Setup Jekyll
-
-(Skip if you already have Jekyll 2.2)
 
 1. Make sure Ruby 2.5 is installed 
 ```

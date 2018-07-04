@@ -4,7 +4,7 @@
  <title>Cult - a clean Jekyll theme for your blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2018-06-30T16:58:46+03:00</updated>
+ <updated>2018-07-04T08:56:04+03:00</updated>
  <author>
    <name>Claudiu Constantin</name>
    <uri>http://claudiuconstantin.com/</uri>
@@ -24,9 +24,19 @@
  
 
  <entry>
+   <title>Typography</title>
+   <link href="http://localhost:4000/typography-example"/>
+   <id>http://localhost:4000/typography-example</id>
+   <updated>2018-06-29T00:00:00+03:00</updated>
+   <content type="html">&lt;p&gt;Markdown defines a few levels of headings. A heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading. For example:&lt;/p&gt; &lt;h1 id=&quot;this-is-a-top-level-heading&quot;&gt;This is a top level heading&lt;/h1&gt; &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;# This is a top level heading&lt;/code&gt;&lt;/p&gt; &lt;p&gt;Use header elements when...</content>
+ </entry>
+
+ 
+
+ <entry>
    <title>Let's write some code</title>
-   <link href="http://localhost:4000/code-example"/>
-   <id>http://localhost:4000/code-example</id>
+   <link href="http://localhost:4000/code"/>
+   <id>http://localhost:4000/code</id>
    <updated>2018-06-28T00:00:00+03:00</updated>
    <content type="html">&lt;p&gt;To insert highlight code inside of a post, it’s enough to use some specific tags, has directly described into the &lt;a href=&quot;http://jekyllrb.com/docs/templates/#code-snippet-highlighting&quot;&gt;Jekyll documentation&lt;/a&gt;. In this way the code will be included into a &lt;code class=&quot;highlighter-rouge&quot;&gt;.highlight&lt;/code&gt; CSS class and will be highlight according to the &lt;a href=&quot;https://github.com/mojombo/tpw/blob/master/css/syntax.css&quot;&gt;syntax.scss&lt;/a&gt; file. This is the...</content>
  </entry>
@@ -44,31 +54,21 @@
  
 
  <entry>
-   <title>Another post on it's way</title>
-   <link href="http://localhost:4000/test-post-3"/>
-   <id>http://localhost:4000/test-post-3</id>
-   <updated>2018-06-25T00:00:00+03:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
- </entry>
-
- 
-
- <entry>
-   <title>4th test post</title>
-   <link href="http://localhost:4000/test-post-4"/>
-   <id>http://localhost:4000/test-post-4</id>
+   <title>A childhood story</title>
+   <link href="http://localhost:4000/childhood-story"/>
+   <id>http://localhost:4000/childhood-story</id>
    <updated>2018-06-23T00:00:00+03:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <content type="html">&lt;p&gt;Here’s the story.&lt;/p&gt; &lt;p&gt;I was in my 8th grade math class. All year a particular student, known for being a little wacky, had been occasionally pretending to be Pikachu. Some days he would sit there working on stuff and someone would ask him a question or whater and he’d just...</content>
  </entry>
 
  
 
  <entry>
-   <title>This is the fifth test post</title>
-   <link href="http://localhost:4000/test-post-5"/>
-   <id>http://localhost:4000/test-post-5</id>
+   <title>Ranting around</title>
+   <link href="http://localhost:4000/ranting"/>
+   <id>http://localhost:4000/ranting</id>
    <updated>2018-06-21T00:00:00+03:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
+   <content type="html">&lt;p&gt;I don’t know who you are. I don’t know what you want. If you are looking for ransom, I can tell you I don’t have money. But what I do have are a very particular set of skills; skills I have acquired over a very long career. Skills that make...</content>
  </entry>
 
  
