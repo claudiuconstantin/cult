@@ -27,7 +27,7 @@ Additionally it is possible to fork the repository and use Github Pages as hosti
 
 For further details on {{site.theme-name}}, please visit the [repository on Github](https://github.com/claudiuconstantin/{{site.theme-name}}/).
 
-![{{site.theme-name}}](img/{{site.theme-name}}01.png "{{site.theme-name}}")
+![{{site.theme-name}}](assets/img/{{site.theme-name}}.jpg "{{site.theme-name}}")
 
 
 
